@@ -3,490 +3,201 @@
     "title" : "[TALK] change-background",
     "nodes" : [ 
         {
-            "className" : "Output",
-            "id" : "5df3bf4e3006eec94184527a",
-            "x" : -5883.50610932476,
-            "y" : -1953.57191082337,
+            "className" : "RemoveBg",
+            "id" : "5f882953b29f2d9125fb639b",
+            "x" : 4544.67626953125,
+            "y" : -1566.10498046875,
             "inputs" : [ 
                 {
-                    "id" : "5df3bf4e3006eec94184527b"
+                    "id" : "5f882953b29f2d9125fb639c"
+                }, 
+                {
+                    "id" : "5f882953b29f2d9125fb639d"
+                }
+            ],
+            "outputs" : [ 
+                {
+                    "id" : "5f882953b29f2d9125fb639e",
+                    "connections" : [ 
+                        "5f882a05b29f2d9125fb63bb"
+                    ]
+                }
+            ],
+            "settings" : {
+                "name" : ""
+            }
+        }, 
+        {
+            "className" : "StringInput",
+            "id" : "5f88297ab29f2d9125fb63a6",
+            "x" : 4237.806640625,
+            "y" : -1509.6455078125,
+            "inputs" : [],
+            "outputs" : [ 
+                {
+                    "id" : "5f88297ab29f2d9125fb63a7",
+                    "connections" : [ 
+                        "5f882953b29f2d9125fb639d"
+                    ]
+                }
+            ],
+            "settings" : {
+                "name" : "",
+                "string" : ""
+            }
+        }, 
+        {
+            "className" : "UrlImage",
+            "id" : "5f882990b29f2d9125fb63a8",
+            "x" : 4250.3583984375,
+            "y" : -1705.84826660156,
+            "inputs" : [],
+            "outputs" : [ 
+                {
+                    "id" : "5f882990b29f2d9125fb63a9",
+                    "connections" : [ 
+                        "5f882953b29f2d9125fb639c"
+                    ]
+                }, 
+                {
+                    "id" : "5f882990b29f2d9125fb63aa",
+                    "connections" : []
+                }, 
+                {
+                    "id" : "5f882990b29f2d9125fb63ab",
+                    "connections" : []
+                }
+            ],
+            "settings" : {
+                "name" : "",
+                "url" : "https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            }
+        }, 
+        {
+            "className" : "UrlImage",
+            "id" : "5f8829e2b29f2d9125fb63ac",
+            "x" : 4592.56650538594,
+            "y" : -1826.51721603617,
+            "inputs" : [],
+            "outputs" : [ 
+                {
+                    "id" : "5f8829e2b29f2d9125fb63ad",
+                    "connections" : [ 
+                        "5f8829f5b29f2d9125fb63b1"
+                    ]
+                }, 
+                {
+                    "id" : "5f8829e2b29f2d9125fb63ae",
+                    "connections" : [ 
+                        "5f882a05b29f2d9125fb63bc"
+                    ]
+                }, 
+                {
+                    "id" : "5f8829e2b29f2d9125fb63af",
+                    "connections" : []
+                }
+            ],
+            "settings" : {
+                "name" : "",
+                "url" : "https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
+            }
+        }, 
+        {
+            "className" : "Blit",
+            "id" : "5f8829f5b29f2d9125fb63b0",
+            "x" : 5103.54287665744,
+            "y" : -1596.86597006865,
+            "inputs" : [ 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b1"
+                }, 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b2"
+                }, 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b3"
+                }, 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b4"
+                }, 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b5"
+                }, 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b6"
+                }, 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b7"
+                }, 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b8"
+                }
+            ],
+            "outputs" : [ 
+                {
+                    "id" : "5f8829f5b29f2d9125fb63b9",
+                    "connections" : [ 
+                        "5f882a5f83b0371c16757016"
+                    ]
+                }
+            ],
+            "settings" : {
+                "name" : "",
+                "blitX" : 0,
+                "blitY" : 0,
+                "srcX" : 0,
+                "srcY" : 0,
+                "srcWidth" : 0,
+                "srcHeight" : 0
+            }
+        }, 
+        {
+            "className" : "Resize",
+            "id" : "5f882a05b29f2d9125fb63ba",
+            "x" : 4849.70333753505,
+            "y" : -1565.83444101972,
+            "inputs" : [ 
+                {
+                    "id" : "5f882a05b29f2d9125fb63bb"
+                }, 
+                {
+                    "id" : "5f882a05b29f2d9125fb63bc"
+                }, 
+                {
+                    "id" : "5f882a05b29f2d9125fb63bd"
+                }
+            ],
+            "outputs" : [ 
+                {
+                    "id" : "5f882a05b29f2d9125fb63be",
+                    "connections" : [ 
+                        "5f8829f5b29f2d9125fb63b2"
+                    ]
+                }
+            ],
+            "settings" : {
+                "name" : "",
+                "resizeX" : 256,
+                "resizeY" : -1,
+                "mode" : "bicubicInterpolation"
+            }
+        }, 
+        {
+            "className" : "Output",
+            "id" : "5f882a5f83b0371c16757015",
+            "x" : 5505.70263671875,
+            "y" : -1568.744140625,
+            "inputs" : [ 
+                {
+                    "id" : "5f882a5f83b0371c16757016"
                 }
             ],
             "outputs" : [],
             "settings" : {
                 "name" : "",
-                "componentName" : "",
-                "ordinal" : "",
-                "title" : "",
                 "type" : "image/jpeg",
-                "base64" : "",
-                "filename" : "NimpDownload",
-                "fullSizeNodeName" : ""
-            }
-        }, 
-        {
-            "className" : "SmartImageInput",
-            "id" : "5e286d45bd8632157b57215e",
-            "x" : -7238.59834998596,
-            "y" : -1894.73011083667,
-            "inputs" : [ 
-                {
-                    "id" : "5e286d45bd8632157b57215f"
-                }, 
-                {
-                    "id" : "5e81f884383fb22cbc660f24"
-                }, 
-                {
-                    "id" : "5e8b3ac6f1c84d76fa34e351"
-                }, 
-                {
-                    "id" : "5ea01e78ec212075722ea878"
-                }
-            ],
-            "outputs" : [ 
-                {
-                    "id" : "5e286d45bd8632157b572160",
-                    "connections" : [ 
-                        "5efddacfc69ebd4ae7278b59"
-                    ]
-                }, 
-                {
-                    "id" : "5e286d45bd8632157b572161",
-                    "connections" : []
-                }, 
-                {
-                    "id" : "5e286d45bd8632157b572162",
-                    "connections" : []
-                }, 
-                {
-                    "id" : "5e81f884383fb22cbc660f28",
-                    "connections" : [ 
-                        "5e8db1465821b56d384ad483"
-                    ]
-                }
-            ],
-            "settings" : {
-                "name" : "FOREGROUND_IMAGE_INPUT",
-                "componentName" : "",
-                "ordinal" : "0",
-                "title" : "",
-                "url" : "https://static.remove.bg/templates/default_foreground.png",
-                "placeholderUrl" : "https://static.remove.bg/templates/foreground.jpg",
-                "imageList" : []
-            }
-        }, 
-        {
-            "className" : "SmartImageInput",
-            "id" : "5e286d82bd8632157b572163",
-            "x" : -7560.61252882773,
-            "y" : -1462.20088433191,
-            "inputs" : [ 
-                {
-                    "id" : "5e286d82bd8632157b572164"
-                }, 
-                {
-                    "id" : "5e81f884383fb22cbc660f2b"
-                }, 
-                {
-                    "id" : "5e8b3ac6f1c84d76fa34e359"
-                }, 
-                {
-                    "id" : "5ea01e78ec212075722ea881"
-                }
-            ],
-            "outputs" : [ 
-                {
-                    "id" : "5e286d82bd8632157b572165",
-                    "connections" : [ 
-                        "5e416fd08a7f119596ae3e12"
-                    ]
-                }, 
-                {
-                    "id" : "5e286d82bd8632157b572166",
-                    "connections" : []
-                }, 
-                {
-                    "id" : "5e286d82bd8632157b572167",
-                    "connections" : []
-                }, 
-                {
-                    "id" : "5e81f884383fb22cbc660f2f",
-                    "connections" : []
-                }
-            ],
-            "settings" : {
-                "name" : "BACKGROUND_IMAGE",
-                "componentName" : "BACKGROUND_IMAGE",
-                "ordinal" : "",
-                "title" : "",
-                "url" : "https://static.remove.bg/templates/default_background.png",
-                "imageList" : [ 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/abstract-art-background-2847648-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/abstract-art-background-2847648-size-1500.jpg",
-                        "download_location" : "/backgrounds/728543/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Artistic/art-background-design-1154738-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Artistic/art-background-design-1154738-size-1500.jpg",
-                        "download_location" : "/backgrounds/728543/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/aerial-architecture-black-and-white-700974-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/aerial-architecture-black-and-white-700974-size-1500.jpg",
-                        "download_location" : "/backgrounds/728536/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/karina-carvalho-FMmQtvOurSc-unsplash-edit-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/karina-carvalho-FMmQtvOurSc-unsplash-edit-size-1500.jpg",
-                        "download_location" : "/backgrounds/728504/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/product/background-cement-concrete-242236-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/product/background-cement-concrete-242236-size-1500.jpg",
-                        "download_location" : "/backgrounds/728475/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/brett-jordan-ESwx0WkINqs-unsplash-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/brett-jordan-ESwx0WkINqs-unsplash-size-1500.jpg",
-                        "download_location" : "/backgrounds/728509/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/architecture-asphalt-buildings-250659-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/architecture-asphalt-buildings-250659-size-1500.jpg",
-                        "download_location" : "/backgrounds/728493/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/product/background-blur-blurred-255379-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/product/background-blur-blurred-255379-size-1500.jpg",
-                        "download_location" : "/backgrounds/728476/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/adventure-asphalt-daylight-1955134-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/adventure-asphalt-daylight-1955134-size-1500.jpg",
-                        "download_location" : "/backgrounds/728508/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-bridge-building-220769-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-bridge-building-220769-size-1500.jpg",
-                        "download_location" : "/backgrounds/728526/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Autumn/dawn-desktop-wallpaper-environment-2055389-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Autumn/dawn-desktop-wallpaper-environment-2055389-size-1500.jpg",
-                        "download_location" : "/backgrounds/728553/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-building-business-2339009-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-building-business-2339009-size-1500.jpg",
-                        "download_location" : "/backgrounds/728528/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Artistic/background-bright-design-602137-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Artistic/background-bright-design-602137-size-1500.jpg",
-                        "download_location" : "/backgrounds/728547/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/asphalt-daylight-empty-2740783-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/asphalt-daylight-empty-2740783-size-1500.jpg",
-                        "download_location" : "/backgrounds/728494/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-bay-blue-sky-1619569-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-bay-blue-sky-1619569-size-1500.jpg",
-                        "download_location" : "/backgrounds/728532/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/gabriel-rojas-rSQ92WfBOks-unsplash-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/gabriel-rojas-rSQ92WfBOks-unsplash-size-1500.jpg",
-                        "download_location" : "/backgrounds/728496/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/asphalt-countryside-daylight-2364401-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/asphalt-countryside-daylight-2364401-size-1500.jpg",
-                        "download_location" : "/backgrounds/728505/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Nature/beach-coast-daylight-315998-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Nature/beach-coast-daylight-315998-size-1500.jpg",
-                        "download_location" : "/backgrounds/728517/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Winter/branch-cold-fog-839462-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Winter/branch-cold-fog-839462-size-1500.jpg",
-                        "download_location" : "/backgrounds/728551/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Artistic/background-bright-design-1555900-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Artistic/background-bright-design-1555900-size-1500.jpg",
-                        "download_location" : "/backgrounds/728540/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/america-architecture-bay-208745-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/america-architecture-bay-208745-size-1500.jpg",
-                        "download_location" : "/backgrounds/728533/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/asphalt-highway-hill-2386939-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/asphalt-highway-hill-2386939-size-1500.jpg",
-                        "download_location" : "/backgrounds/728507/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/4k-wallpaper-autumn-branches-2734469-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/4k-wallpaper-autumn-branches-2734469-size-1500.jpg",
-                        "download_location" : "/backgrounds/728499/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/car/architecture-beams-building-1756957-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/car/architecture-beams-building-1756957-size-1500.jpg",
-                        "download_location" : "/backgrounds/728490/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/product/surface-wall-white-1323712-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/product/surface-wall-white-1323712-size-1500.jpg",
-                        "download_location" : "/backgrounds/728478/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Beach/beach-beautiful-coast-1835718-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Beach/beach-beautiful-coast-1835718-size-1500.jpg",
-                        "download_location" : "/backgrounds/728554/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-buildings-city-325185-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-buildings-city-325185-size-1500.jpg",
-                        "download_location" : "/backgrounds/728535/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Beach/4k-wallpaper-beach-coconut-trees-1457812-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Beach/4k-wallpaper-beach-coconut-trees-1457812-size-1500.jpg",
-                        "download_location" : "/backgrounds/728556/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-atmospheric-evening-bokeh-1981526-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-atmospheric-evening-bokeh-1981526-size-1500.jpg",
-                        "download_location" : "/backgrounds/728531/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Artistic/art-artistic-background-1279813-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Artistic/art-artistic-background-1279813-size-1500.jpg",
-                        "download_location" : "/backgrounds/728545/download"
-                    }, 
-                    {
-                        "thumbnail_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-buildings-china-683419-size-156.jpg",
-                        "image_url" : "https://static.remove.bg/backgrounds/person/Urban/architecture-buildings-china-683419-size-1500.jpg",
-                        "download_location" : "/backgrounds/728529/download"
-                    }
-                ],
-                "uploadEnabled" : true
-            }
-        }, 
-        {
-            "className" : "UniformColor",
-            "id" : "5e2d90db3b229b2049e79b91",
-            "x" : -7480.21986361193,
-            "y" : -1653.62384537115,
-            "inputs" : [ 
-                {
-                    "id" : "5e2d90db3b229b2049e79b92"
-                }, 
-                {
-                    "id" : "5e2d90db3b229b2049e79b93"
-                }, 
-                {
-                    "id" : "5e2d90db3b229b2049e79b94"
-                }
-            ],
-            "outputs" : [ 
-                {
-                    "id" : "5e2d90db3b229b2049e79b95",
-                    "connections" : [ 
-                        "5e416fd08a7f119596ae3e11"
-                    ]
-                }, 
-                {
-                    "id" : "5e2d90db3b229b2049e79b96",
-                    "connections" : []
-                }, 
-                {
-                    "id" : "5e2d90db3b229b2049e79b97",
-                    "connections" : []
-                }, 
-                {
-                    "id" : "5e2d90db3b229b2049e79b98",
-                    "connections" : []
-                }
-            ],
-            "settings" : {
-                "name" : "BACKGROUND_COLOR",
-                "componentName" : "BACKGROUND_COLOR",
-                "ordinal" : "",
-                "title" : "",
-                "width" : 256,
-                "height" : 256,
-                "hexColor" : "",
-                "colorList" : [ 
-                    "#ffffff", 
-                    "#f44336", 
-                    "#e91e63", 
-                    "#9c27b0", 
-                    "#673ab7", 
-                    "#3f51b5", 
-                    "#2196f3", 
-                    "#03a9f4", 
-                    "#00bcd4", 
-                    "#009688", 
-                    "#4caf50", 
-                    "#8bc34a", 
-                    "#cddc39", 
-                    "#ffeb3b", 
-                    "#ffc107", 
-                    "#ff9800", 
-                    "#ff5722", 
-                    "#795548", 
-                    "#9e9e9e", 
-                    "#607d8b", 
-                    "#000000"
-                ]
-            }
-        }, 
-        {
-            "className" : "Selector",
-            "id" : "5e416fd08a7f119596ae3e10",
-            "x" : -7178.8460513126,
-            "y" : -1544.57885449516,
-            "inputs" : [ 
-                {
-                    "id" : "5e416fd08a7f119596ae3e11"
-                }, 
-                {
-                    "id" : "5e416fd08a7f119596ae3e12"
-                }
-            ],
-            "outputs" : [ 
-                {
-                    "id" : "5e416fd08a7f119596ae3e13",
-                    "connections" : [ 
-                        "5efddacfc69ebd4ae7278b58"
-                    ]
-                }
-            ],
-            "settings" : {
-                "name" : "BACKGROUND_SELECTOR",
-                "componentName" : "BACKGROUND_SELECTOR",
-                "ordinal" : "1",
-                "title" : ""
-            }
-        }, 
-        {
-            "className" : "PreviewResize",
-            "id" : "5e8db1465821b56d384ad481",
-            "x" : -6154.8779530373,
-            "y" : -1899.66956644979,
-            "inputs" : [ 
-                {
-                    "id" : "5e8db1465821b56d384ad482"
-                }, 
-                {
-                    "id" : "5e8db1465821b56d384ad483"
-                }
-            ],
-            "outputs" : [ 
-                {
-                    "id" : "5e8db1465821b56d384ad484",
-                    "connections" : [ 
-                        "5df3bf4e3006eec94184527b"
-                    ]
-                }
-            ],
-            "settings" : {
-                "name" : "PREVIEW_RESIZE",
-                "componentName" : "",
-                "ordinal" : "",
-                "title" : "",
-                "resizeKind" : 2
-            }
-        }, 
-        {
-            "className" : "SmartResize",
-            "id" : "5efddacfc69ebd4ae7278b57",
-            "x" : -6831.75271220506,
-            "y" : -1567.33783775331,
-            "inputs" : [ 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b58"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b59"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b5a"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b5b"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b5c"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b5d"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b5e"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b5f"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b60"
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b61"
-                }
-            ],
-            "outputs" : [ 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b62",
-                    "connections" : []
-                }, 
-                {
-                    "id" : "5efddacfc69ebd4ae7278b63",
-                    "connections" : []
-                }
-            ],
-            "settings" : {
-                "name" : "",
-                "componentName" : "",
-                "ordinal" : "",
-                "title" : "",
-                "resizeMethod" : 2
-            }
-        }, 
-        {
-            "className" : "RemoveBg",
-            "id" : "5f156b0b82e26c8d2b5dfd95",
-            "x" : -7551.4697265625,
-            "y" : -1966.93676757812,
-            "inputs" : [ 
-                {
-                    "id" : "5f156b0b82e26c8d2b5dfd96"
-                }, 
-                {
-                    "id" : "5f156b0b82e26c8d2b5dfd97"
-                }
-            ],
-            "outputs" : [ 
-                {
-                    "id" : "5f156b0b82e26c8d2b5dfd98",
-                    "connections" : [ 
-                        "5e286d45bd8632157b57215f"
-                    ]
-                }
-            ],
-            "settings" : {
-                "name" : "FOREGROUND_IMAGE",
-                "componentName" : "FOREGROUND_IMAGE",
-                "ordinal" : "0",
-                "title" : ""
+                "base64" : null,
+                "filename" : "NimpDownload"
             }
         }
     ]
