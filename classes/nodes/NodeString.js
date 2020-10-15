@@ -45,7 +45,7 @@ export default class NodeString extends Node {
 
   renderPreview() {
     if (this.string != null) {
-      this.textPreview.textContent = this.string;
+      this.textPreview.textContent = "XXX";
     } else {
       this.textPreview.textContent = '';
     }

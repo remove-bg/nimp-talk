@@ -4,7 +4,7 @@ import OutputString from '../OutputString.js';
 
 export default class StringInput extends NodeString {
   constructor(className, graph, x, y, settings) {
-    super(className, graph, x, y, 'String Input', StringInputProperties, settings);
+    super(className, graph, x, y, 'API KEY', StringInputProperties, settings);
 
     this.inputs = [];
     this.outputs = [
