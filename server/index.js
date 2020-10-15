@@ -1,9 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const next = require('next');
 const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 3000;
 const MongoClient = require('mongodb').MongoClient;
-const mongoClient = new MongoClient(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true });
+const suffix = '?authSource=admin';
+const mongoClient = new MongoClient(process.env.MONGO_URL+suffix, { useNewUrlParser: true, useUnifiedTopology: true });
 const dev = process.env.NODE_ENV !== 'production';
 const nextApp = next({ dev });
 const handle = nextApp.getRequestHandler();
@@ -25,7 +27,7 @@ mongoClient.connect(error => {
     expressApp.locals.db.createIndex('users', {email:1});
 
     const store = new MongoStore({
-      uri: process.env.MONGO_URL + '/nimp',
+      uri: process.env.MONGO_URL + '/nimp' + suffix,
       collection: 'sessions'
     }, error => {
       if (error) {
